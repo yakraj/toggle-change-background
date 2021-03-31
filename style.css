@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.night{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image:url('https://cdn.pixabay.com/photo/2020/03/31/16/33/road-4988448_960_720.jpg');
+    background-size: cover;
+      transition: 0.3s ease-in-out;
+  }
+  
+  .secondnight{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-image:url('https://cdn.pixabay.com/photo/2020/03/30/17/15/funes-4984899_960_720.jpg');
+    background-size: cover;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .outliner{
+    height: 40px;
+    width: 80px;
+    background: #333;
+    border-radius: 25px;
+    transition: 300ms ease-in-out;
+  }
+  .outliner.newoutliner{
+    background: blue;
+  }
+  .outliner.newoutliner > .innercircle{
+    margin-left: 41px;
+    background: yellow;
+  }
+  .innercircle{
+    margin-left: 2px;
+    margin-top: 3px;
+    height: 35px;
+    width: 35px;
+    background: #FFFF;
+    border-radius: 50%;
+    transition: 300ms ease-in-out;
+  }
